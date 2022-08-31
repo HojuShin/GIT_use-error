@@ -1,0 +1,10 @@
+// 01. 작업폴더 - git 연결
+터미널 -> 
+git init 
+git add 파일명
+(test) git commit -m '아무메세지'
+
+// 02. repository 이름 변경
+Repository Rename 시킨 후 터미널 ->
+git remote set-url origin "새 주소"
+(변경된 저장소 확인) git remote -v
